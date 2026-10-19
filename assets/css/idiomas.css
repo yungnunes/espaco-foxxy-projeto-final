@@ -1,0 +1,9 @@
+/* Seletor de idiomas - Foxxy */
+.foxxy-language-switcher{display:flex;align-items:center;justify-content:center;gap:6px;padding:5px 6px;border:1px solid #e6d7d1;border-radius:999px;background:#fff9f6;white-space:nowrap;flex-shrink:0;margin-left:8px;z-index:20;box-shadow:0 4px 14px rgba(64,16,22,.06)}
+.foxxy-lang-btn{font-family:inherit;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:0;background:transparent;border-radius:999px;padding:6px 9px;cursor:pointer;color:#401016;font-size:12px;font-weight:700;line-height:1;transition:background .2s, transform .2s}
+.foxxy-lang-btn:hover,.foxxy-lang-btn:focus-visible{background:#ead9d2;outline-offset:2px;transform:translateY(-1px)}
+.foxxy-lang-btn.is-active{background:#6d1524;color:white}
+.foxxy-flag{width:18px;height:18px;display:block;object-fit:cover;border-radius:50%;box-shadow:0 0 0 1px rgba(0,0,0,.08)}
+.foxxy-lang-btn span{font-size:10px;letter-spacing:.3px}
+@media(max-width:1060px){header .nav{flex-wrap:wrap;justify-content:space-between}header .foxxy-language-switcher{margin-left:auto;margin-bottom:6px}}
+@media(max-width:680px){.foxxy-language-switcher{padding:3px;gap:3px}.foxxy-lang-btn{padding:6px 7px}.foxxy-lang-btn span{display:none}.foxxy-flag{width:19px;height:19px}}
